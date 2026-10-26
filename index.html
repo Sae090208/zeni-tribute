@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="theme-color" content="#080b18">
+<title>Zeni — A Legend Never Leaves</title>
+<style>
+:root{--gold:#f4d28a;--gold2:#b9873e;--ink:#080b18;--muted:#b9bfd0;--line:rgba(244,210,138,.25)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% 0%,#202846 0,#0b1021 43%,#060811 100%);color:#f7f3e9;font-family:Georgia,"Times New Roman",serif;overflow-x:hidden}
+body:before{content:"";position:fixed;inset:0;pointer-events:none;opacity:.2;background-image:linear-gradient(#fff1 1px,transparent 1px),linear-gradient(90deg,#fff1 1px,transparent 1px);background-size:44px 44px}
+#stars{position:fixed;inset:0;pointer-events:none;z-index:0}.star{position:absolute;width:2px;height:2px;background:#fff1c6;border-radius:50%;animation:twinkle 3s infinite alternate}
+@keyframes twinkle{from{opacity:.15;transform:scale(.7)}to{opacity:1;transform:scale(1.4)}}
+.wrap{position:relative;z-index:1;width:min(920px,92%);margin:auto}.nav{display:flex;justify-content:space-between;align-items:center;padding:24px 0;color:var(--muted);font:11px Arial,sans-serif;letter-spacing:3px;text-transform:uppercase}.sig{color:var(--gold);font-weight:bold}.seal{border:1px solid var(--line);border-radius:999px;padding:9px 12px}
+.hero{min-height:82vh;display:flex;flex-direction:column;justify-content:center;align-items:center;text-align:center;padding:42px 0 70px}
+.eyebrow{font:11px Arial,sans-serif;letter-spacing:5px;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+.crest{width:104px;height:104px;border:1px solid var(--gold2);transform:rotate(45deg);display:grid;place-items:center;margin:14px 0 34px;box-shadow:0 0 45px #f4d28a1f;background:linear-gradient(135deg,#f4d28a1a,transparent)}
+.crest span{transform:rotate(-45deg);font-size:48px;color:var(--gold)}
+h1{font-size:clamp(52px,11vw,112px);line-height:.88;letter-spacing:5px;font-weight:normal;margin:0;text-shadow:0 0 35px #f4d28a1f}
+h1 small{display:block;font-size:clamp(13px,2vw,18px);letter-spacing:7px;color:var(--gold);margin-top:24px;font-family:Arial,sans-serif}
+.rule{width:90px;height:1px;background:linear-gradient(90deg,transparent,var(--gold),transparent);margin:30px auto}
+.lead{max-width:590px;color:#d8d9e0;font-size:clamp(17px,2.7vw,21px);line-height:1.75}
+.btn{cursor:pointer;border:1px solid var(--gold2);background:linear-gradient(135deg,#f4d28a,#c4944b);color:#17121a;padding:15px 22px;font:bold 11px Arial,sans-serif;letter-spacing:2px;text-transform:uppercase;border-radius:2px;transition:.25s}
+.btn:hover{transform:translateY(-2px);box-shadow:0 10px 32px #d2a75b30}
+section{padding:60px 0}.section-kicker{font:10px Arial,sans-serif;letter-spacing:4px;color:var(--gold);text-transform:uppercase;text-align:center}
+h2{text-align:center;font-size:clamp(29px,5vw,45px);font-weight:normal;margin:14px 0 22px}
+.center{max-width:650px;margin:auto;text-align:center;color:#d0d2dc;line-height:1.9;font-size:18px}
+.letter{max-width:720px;margin:35px auto 0;padding:clamp(24px,6vw,48px);border:1px solid var(--line);background:linear-gradient(145deg,#ffffff0b,#ffffff03);box-shadow:0 20px 80px #0004;position:relative}
+.letter:before,.letter:after{content:"✦";position:absolute;color:var(--gold);font-size:17px}.letter:before{top:14px;left:16px}.letter:after{bottom:14px;right:16px}
+.letter p{font-size:18px;line-height:1.95;color:#e0e0e6;margin:0 0 18px}.letter .signoff{color:var(--gold);font-style:italic;font-size:21px;margin-top:28px}
+.cards{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:32px}.card{border:1px solid var(--line);padding:24px 18px;text-align:center;background:#ffffff04}.icon{font-size:27px;color:var(--gold);margin-bottom:13px}.card h3{font-size:18px;font-weight:normal;color:var(--gold);margin:0 0 10px}.card p{font:14px/1.7 Arial,sans-serif;color:var(--muted);margin:0}
+.final{padding:80px 0 100px;text-align:center}.final-quote{font-size:clamp(25px,5vw,42px);line-height:1.5;max-width:780px;margin:25px auto;color:#f6e8c7}.final-quote em{color:var(--gold);font-style:normal}
+.reveal{display:none;max-width:650px;margin:30px auto 0;padding:25px;border-top:1px solid var(--line);border-bottom:1px solid var(--line);color:#e5e3e8;line-height:1.9;font-size:18px;animation:fade .8s ease}.reveal.show{display:block}@keyframes fade{from{opacity:0;transform:translateY(12px)}to{opacity:1;transform:none}}
+footer{border-top:1px solid #ffffff15;text-align:center;padding:25px 0 36px;color:#8d93a8;font:10px/2 Arial,sans-serif;letter-spacing:2px;text-transform:uppercase}
+@media(max-width:650px){.cards{grid-template-columns:1fr}.nav{letter-spacing:1.5px}.hero{min-height:78vh}.letter p{font-size:17px}}
+</style></head>
+<body><div id="stars"></div><main class="wrap">
+<nav class="nav"><span class="sig">A TRIBUTE BY SAE</span><span class="seal">KINGSHOT · LEGACY</span></nav>
+<header class="hero"><div class="eyebrow">Some legends are never forgotten</div><div class="crest"><span>♛</span></div>
+<h1>ZENI<small>A LEGEND NEVER LEAVES</small></h1><div class="rule"></div>
+<p class="lead">Every kingdom has its warriors. Every battlefield has its heroes. But once in a while, you meet someone who becomes more than a teammate.</p>
+<button class="btn" onclick="document.getElementById('letter').scrollIntoView({behavior:'smooth'})">Open your tribute ↓</button></header>
+<section><div class="section-kicker">Beyond the battlefield</div><h2>Some bonds outlast the game.</h2>
+<p class="center">KingShot may be where our paths crossed, but the respect and brotherhood we found there mean more than any rank, castle, or victory screen.</p>
+<div class="cards">
+<article class="card"><div class="icon">♜</div><h3>The Warrior</h3><p>Remembered for the battles, the effort, and the mark left on the kingdom.</p></article>
+<article class="card"><div class="icon">✦</div><h3>The Brother</h3><p>Valued not just for what you did in the game, but for the person you are to me.</p></article>
+<article class="card"><div class="icon">♛</div><h3>The Legacy</h3><p>Seasons change. Alliances change. The respect stays.</p></article></div></section>
+<section id="letter"><div class="section-kicker">From SAE, with respect</div><h2>A message for my big brother</h2>
+<div class="letter"><p>Zeni,</p>
+<p>I don't know if a website, a message, or a thousand words could fully explain what you mean to me. But before you leave KingShot, I wanted to make something that says what a simple “goodbye” never could.</p>
+<p>To me, you were never just another name on a player list. You became like a big brother. And that means something beyond power, rankings, rallies, or any kingdom we helped build.</p>
+<p>Maybe one day the notifications will stop, the battles will become memories, and this chapter will be behind us. But I hope you remember that somewhere in this game, you made a difference to someone — to me.</p>
+<p>Thank you for being part of my journey, brother. I won't pretend that things will feel exactly the same without you. But I'm glad our paths crossed, and I'll always be grateful that they did.</p>
+<p>You don't owe the game forever. You've earned the right to choose your next chapter, to rest, to grow, and to chase whatever makes you happy. Wherever life takes you, I hope it brings you peace, success, and people who value you as much as you deserve.</p>
+<p>This isn't the end of our brotherhood. It's just the end of one chapter.</p><p class="signoff">With respect, always — SAE</p></div></section>
+<section class="final"><div class="section-kicker">One last thing, brother</div>
+<div class="final-quote">“You can leave the battlefield, Zeni.<br><em>But you'll always have a place in my kingdom.</em>”</div>
+<button class="btn" id="revealBtn" onclick="reveal()">Unlock the final message ✦</button>
+<div class="reveal" id="reveal">If life ever brings you back, you'll know where to find me. And even if you never return to the game, I hope you never doubt this: you were appreciated, you mattered, and you will be remembered.<br><br><strong style="color:#f4d28a;font-weight:normal">Take care of yourself, big brother. This is not “goodbye forever.” It's “thank you for being you.”</strong><br><br>— SAE</div></section>
+<footer>MADE WITH RESPECT · FROM SAE TO ZENI<br>THE KINGDOM MAY MOVE ON. THE MEMORIES STAY.</footer></main>
+<script>
+const root=document.getElementById('stars');for(let i=0;i<95;i++){let s=document.createElement('i');s.className='star';s.style.left=Math.random()*100+'%';s.style.top=Math.random()*100+'%';s.style.animationDelay=Math.random()*4+'s';s.style.animationDuration=2+Math.random()*4+'s';root.appendChild(s)}
+function reveal(){document.getElementById('reveal').classList.add('show');document.getElementById('revealBtn').textContent='A brotherhood that stays ✦';document.getElementById('reveal').scrollIntoView({behavior:'smooth',block:'center'})}
+</script></body></html>
